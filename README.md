@@ -1,6 +1,5 @@
 # django-toggle-m2m
 
-
 ## Installation
 
 ```bash
