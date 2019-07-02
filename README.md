@@ -1,4 +1,4 @@
-# django-toggle-m2m
+# [django-toggle-m2m](https://pypi.org/project/django-toggle-m2m/)
 
 ## Installation
 
@@ -43,3 +43,7 @@ article.toggle_publications(instance=publication) # Will be removed
 git clone https://github.com/wencakisa/django-toggle-m2m.git
 pip install django_toggle_m2m
 ```
+
+---
+
+*Interesting fact* - https://code.djangoproject.com/ticket/20686
