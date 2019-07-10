@@ -11,7 +11,7 @@ DESCRIPTION = "Django package for generating methods for toggling ManyToMany rel
 URL = 'https://github.com/wencakisa/django-toggle-m2m'
 EMAIL = 'wencakisa@gmail.com'
 AUTHOR = 'Ventsislav Tashev'
-REQUIRES_PYTHON = '>=3.7.0'
+REQUIRES_PYTHON = '>=3.6.0'
 VERSION = None
 
 # What packages are required for this module to be executed?
