@@ -11,7 +11,7 @@ class ToggleManyToMany:
     def _toggle(self, instance, field):
         field_to_toggle = getattr(self, field, None)
 
-        if instance in field_to_toggle.values_list('id', flat=True):
+        if instance.id in field_to_toggle.values_list('id', flat=True):
             field_to_toggle.remove(instance)
         else:
             field_to_toggle.add(instance)
